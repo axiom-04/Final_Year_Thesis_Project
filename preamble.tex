@@ -1,0 +1,126 @@
+% !TEX root = holder_file.tex
+\makeatletter\@addtoreset{chapter}{part}\makeatother%
+\usepackage[dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{geometry}
+\definecolor{myblue}{rgb}{0.058, 0.588, 0.558}
+\definecolor{whpaste}{rgb}{0.180,0.211,0.178}
+\definecolor{Pastel Blue}{HTML}{AADDEE}
+\definecolor{foo}{HTML}{EFF5F9}
+
+\usepackage{tcolorbox}
+%%------------------------
+\usepackage{nicematrix}
+\usepackage{url} % typeset URL's reasonably
+\usepackage{listings}
+\usepackage{fancybox}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{eurosym}
+\usepackage{amsmath,amssymb,amsthm,mathrsfs,amsfonts}
+\usepackage{wasysym}
+%\usepackage{MnSymbol}
+\usepackage{amssymb,latexsym, bbm,comment}
+\usepackage{colortbl}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{bbm,dsfont}
+\newcommand{\amount}{6in}   %%<---- adjust
+\usepackage{float}
+\usepackage{esvect}
+\usepackage{mathtools}
+\usepackage{calligra}
+\usepackage[T1]{fontenc}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{booktabs}
+\usepackage{array} 
+%\usepackage{cancel, caption, mathtools, subcaption, amsthm}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{refstyle}
+
+%----------- something for maths ----------
+\geometry{
+	left=1.42in,
+	right=1.1in,
+	top=1.4in,
+	bottom=1.4in
+}
+%%------------------------
+%%defination add korar jonno egula likhsi
+{\theoremstyle{plain}
+	\newtheorem{definition}{Definition}[section]
+	\newtheorem{lemma}[definition]{Lemma}
+	\newtheorem{theorem}[definition]{Theorem}
+	\newtheorem{cor}[definition]{Corollary}
+	\newtheorem{proposition}[definition]{Proposition}
+	\newtheorem*{condition}{Condition}
+}{\theoremstyle{definition}
+	\newtheorem{example}[definition]{Example}
+	\newtheorem{exercise}[definition]{Exercise}
+	\newtheorem{remark}[definition]{Remark}
+	\newcommand\dlim{\displaystyle \lim}
+	\newcommand\dsum{\displaystyle \sum}
+	\newcommand\dint{\displaystyle \int}
+	\newcommand\N{\mathbb{N}}
+	\newcommand\R{\mathbb{R}}
+	\newcommand\Z{\mathbb{Z}}
+	\newcommand\F{\mathcal{F}}
+	\newcommand\E{\mathbb{E}}
+	\newcommand\V{\mathbb{V}}
+	\newcommand\pr{\mathbb{P}}
+	\newcommand\Q{\mathbb{Q}}
+	%\newcommand\lub{\text{lub}}
+	\newcommand\dss{\displaystyle}
+	\newcommand\pbs{(\Omega, \mathscr{F}, \pr)}
+	\newcommand\mycol{\textcolor{red!70!black!40}}
+	\newcommand\bst{$\circleddash$}
+	%\newcommand\dfncol{\textcolor{green}}
+	\newcommand\exmcol{\textcolor{red}}
+	\newcommand\thmcol{\textcolor{blue}}
+	\newcommand\dfnline{\rule{0.99\linewidth}{1.2pt}}
+	%%%%%%% chapter color 
+	\newcommand{\sub}{\textcolor{black}}
+	\newcommand{\sect}{\textcolor{black}}
+	%\newcommand{\sect}{\textcolor{green!148!blue!137}}
+	\newcommand{\chap}{\textcolor{black}}
+	%%%%%%%%%%%%%%%
+	\definecolor{rahmen}{RGB}{0,73,114}
+	\definecolor{grund}{RGB}{238,241,251}          
+	\definecolor{schrift}{RGB}{0,73,114}
+	
+	%%%%%  for code
+	\usepackage{listings}
+	\usepackage{xcolor}
+	%%%%% for code design %%%%%%%%
+	\definecolor{codegreen}{rgb}{0,0.6,0}
+	\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+	\definecolor{codepurple}{rgb}{0.58,0,0.82}
+	\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+	
+	\lstdefinestyle{mystyle}{
+		backgroundcolor=\color{backcolour},  
+		commentstyle=\color{codegreen},
+		keywordstyle=\color{magenta},
+		numberstyle=\tiny\color{codegray},
+		stringstyle=\color{codepurple},
+		basicstyle=\ttfamily\footnotesize,
+		breakatwhitespace=false,        
+		breaklines=true,                
+		captionpos=b,                    
+		keepspaces=true,                
+		numbers=left,                    
+		numbersep=5pt,                  
+		showspaces=false,                
+		showstringspaces=false,
+		showtabs=false,                  
+		tabsize=2
+	}
+	
+	\lstset{style=mystyle}
+	%%%%%%
+	
+	\newcommand{\ito}{It$\hat{\text{o}}$ }
+	

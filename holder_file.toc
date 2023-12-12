@@ -1,0 +1,68 @@
+\contentsline {chapter}{\numberline {1}Introduction}{7}{}%
+\contentsline {chapter}{\numberline {2}Preliminaries}{9}{}%
+\contentsline {section}{\numberline {2.1}What Is a Derivative}{9}{}%
+\contentsline {section}{\numberline {2.2}Exchange-Traded Market}{9}{}%
+\contentsline {section}{\numberline {2.3}Over-The-Counter Markets}{10}{}%
+\contentsline {section}{\numberline {2.4}Forward Contracts}{10}{}%
+\contentsline {section}{\numberline {2.5}Future Contracts}{10}{}%
+\contentsline {section}{\numberline {2.6}Types of Traders}{11}{}%
+\contentsline {subsection}{\numberline {2.6.1}Hedgers}{11}{}%
+\contentsline {subsection}{\numberline {2.6.2}Speculators}{11}{}%
+\contentsline {subsection}{\numberline {2.6.3}Arbitrageurs}{11}{}%
+\contentsline {section}{\numberline {2.7}Options}{12}{}%
+\contentsline {subsection}{\numberline {2.7.1}Call Options}{12}{}%
+\contentsline {subsection}{\numberline {2.7.2}Put Options}{12}{}%
+\contentsline {subsection}{\numberline {2.7.3}Option Payoff diagram}{12}{}%
+\contentsline {subsection}{\numberline {2.7.4}European and American Options}{13}{}%
+\contentsline {subsection}{\numberline {2.7.5}Exotic and Path Dependent Options}{13}{}%
+\contentsline {subsection}{\numberline {2.7.6}Barrier options}{14}{}%
+\contentsline {section}{\numberline {2.8}Put-Call Parity}{14}{}%
+\contentsline {section}{\numberline {2.9}Risk-Neutral Valuation}{15}{}%
+\contentsline {section}{\numberline {2.10}Stochastic Process}{15}{}%
+\contentsline {section}{\numberline {2.11}It$\hat {\text {o}}$ Lemma}{15}{}%
+\contentsline {section}{\numberline {2.12}The Black-Scholes Model}{16}{}%
+\contentsline {subsection}{\numberline {2.12.1} Introduction}{16}{}%
+\contentsline {subsection}{\numberline {2.12.2} Assumptions}{17}{}%
+\contentsline {subsection}{\numberline {2.12.3} Methodology}{17}{}%
+\contentsline {subsection}{\numberline {2.12.4} Pricing European Options}{19}{}%
+\contentsline {subsection}{\numberline {2.12.5} Pricing American Options}{19}{}%
+\contentsline {chapter}{\numberline {3}Monte Carlo Method and Option Pricing}{21}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{21}{}%
+\contentsline {section}{\numberline {3.2}Monte Carlo Simulation History}{21}{}%
+\contentsline {section}{\numberline {3.3}History of Monte Carlo in Finance}{22}{}%
+\contentsline {section}{\numberline {3.4}A Practical Example with Code}{22}{}%
+\contentsline {subsection}{\numberline {3.4.1}Convergence of Monte Carlo}{23}{}%
+\contentsline {section}{\numberline {3.5}Option Pricing}{23}{}%
+\contentsline {subsection}{\numberline {3.5.1}Monte Carlo as a tool for Financial Math}{24}{}%
+\contentsline {subsection}{\numberline {3.5.2}Computationally inefficient}{24}{}%
+\contentsline {subsection}{\numberline {3.5.3}Valuation by Simulation}{25}{}%
+\contentsline {subsection}{\numberline {3.5.4}European Call Option in the Black-Scholes World}{25}{}%
+\contentsline {subsection}{\numberline {3.5.5}Algorithm}{26}{}%
+\contentsline {subsection}{\numberline {3.5.6}Result}{27}{}%
+\contentsline {subsection}{\numberline {3.5.7}Option Price with Maturity}{27}{}%
+\contentsline {subsection}{\numberline {3.5.8}Relation Between Option Price and Strike Price}{28}{}%
+\contentsline {section}{\numberline {3.6}Monte Carlo Variance Reduction Methods – Antithetic}{29}{}%
+\contentsline {subsection}{\numberline {3.6.1}Antithetic Variates}{29}{}%
+\contentsline {subsection}{\numberline {3.6.2}Implementation of Antithetic Variate}{30}{}%
+\contentsline {subsection}{\numberline {3.6.3}Algorithm}{30}{}%
+\contentsline {subsection}{\numberline {3.6.4}Result}{31}{}%
+\contentsline {subsection}{\numberline {3.6.5}Option Price with Strike Price}{31}{}%
+\contentsline {section}{\numberline {3.7}Pricing an Up-and-Out Barrier Option}{32}{}%
+\contentsline {subsection}{\numberline {3.7.1}Path-Dependent option}{32}{}%
+\contentsline {subsection}{\numberline {3.7.2}Algorithm}{32}{}%
+\contentsline {subsection}{\numberline {3.7.3}Result}{33}{}%
+\contentsline {subsection}{\numberline {3.7.4}Option Price with Maturity}{33}{}%
+\contentsline {subsection}{\numberline {3.7.5}Relation Between Option Price and Strike Price}{34}{}%
+\contentsline {subsection}{\numberline {3.7.6}The Monte Carlo Method for American Options}{35}{}%
+\contentsline {subsection}{\numberline {3.7.7}Algorithm}{36}{}%
+\contentsline {chapter}{\numberline {4}Comparison}{38}{}%
+\contentsline {section}{\numberline {4.1}Black Scholes vs All}{38}{}%
+\contentsline {subsection}{\numberline {4.1.1}European Call option: Black Scholes Method vs Monte Carlo Method}{38}{}%
+\contentsline {subsection}{\numberline {4.1.2}European Call option: Black Scholes Method vs Antithetic}{39}{}%
+\contentsline {subsection}{\numberline {4.1.3}Barrier Put option: Black Scholes Method vs Monte Carlo Method}{40}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{43}{}%
+\contentsline {chapter}{\numberline {A}Some Codes}{44}{}%
+\contentsline {subsection}{\numberline {A.0.1}Code for Dart Problem}{44}{}%
+\contentsline {subsection}{\numberline {A.0.2}Code for Monte Carlo}{45}{}%
+\contentsline {subsection}{\numberline {A.0.3}Code for Antithetic}{47}{}%
+\contentsline {subsection}{\numberline {A.0.4}Code for Barrier Option}{50}{}%
